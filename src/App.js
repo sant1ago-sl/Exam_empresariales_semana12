@@ -1,25 +1,69 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import StarWarsSearch from './PokemonSearch';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StarWarsSearch />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import './App.css';
+// import CharacterList from './CharacterList';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Personajes de Star Wars</h1>
+//       <CharacterList />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// import React from 'react';
+// import './App.css';
+// import CharacterList from './CharacterList';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Personajes de Star Wars</h1>
+//       <CharacterList />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// import React from 'react';
+// import './App.css';
+// import CharacterLoader from './CharacterLoader';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <CharacterLoader />
+//     </div>
+//   );
+// }
+
+// export default App;
